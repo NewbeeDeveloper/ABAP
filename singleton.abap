@@ -1,27 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@eecheverria573 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-eecheverria573
-/
-ABAP
-0
-00
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-ABAP/singleton.txt
- Eduardo Echeverria first commit
-15ffd7c on 16 May 2018
-75 lines (47 sloc)  1.55 KB
-  
 *&---------------------------------------------------------------------*
 *& Report  YSINGLETON2
 *&
@@ -97,15 +73,4 @@ START-OF-SELECTION.
   lv_msj = lr_ref_2->get_valor( ).
 
   WRITE lv_msj.
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
