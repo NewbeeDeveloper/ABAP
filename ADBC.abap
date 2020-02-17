@@ -18,7 +18,7 @@ DATA: go_result TYPE REF TO cl_sql_result_set,
 
 TRY.
     "Obtenemos la conexión
-    go_connection = cl_sql_connection=>get_connection( 'P100220HDB' ).
+    go_connection = cl_sql_connection=>get_connection( 'Data Base' ).
 
     "Creamos el objeto que ejecutará la sentencia
     CREATE OBJECT go_statement EXPORTING con_ref = go_connection.
@@ -30,7 +30,7 @@ TRY.
     "go_statement = new #( ).
 
     "Realizamos la sentencia de consulta
-    gv_sql = |SELECT * FROM "P100220"."SFLIGHT" WHERE CARRID = 'LH'|.
+    gv_sql = |SELECT * FROM "Usuario"."SFLIGHT" WHERE CARRID = 'LH'|.
 
     "Realizamos el Query
     go_result = go_statement->execute_query( gv_sql ).
